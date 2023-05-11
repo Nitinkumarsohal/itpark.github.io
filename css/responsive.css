@@ -13,6 +13,7 @@
     }
 }
 @media (max-width: 1199.98px) { 
+  
     .carousel-caption {
         padding-bottom: 130px;
     }
@@ -53,6 +54,9 @@
     }
 }
 @media (max-width: 991.98px) { 
+    .edit {
+        display: block;
+    }
     .carousel-caption h5 {
         font-size: 38px;
     }
@@ -229,7 +233,7 @@
 @media (max-width: 575.98px) { 
     .slider .w-100 {
         width: 100%!important;
-        min-height: 40vh;
+        min-height: 35vh;
     }
     .nav-pills .nav-link {
         margin: 5px !important;
@@ -304,5 +308,16 @@ footer .nav li {
 }
 footer .Copyright {
     text-align: center;
+}
+.carousel-caption {
+    padding-bottom: -1px;
+}
+.carousel-caption h5 {
+    font-size: 18px;
+    line-height: 10px;
+}
+.carousel-caption p {
+    font-size: 14px;
+    line-height: 26px;
 }
 }
